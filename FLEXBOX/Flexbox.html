@@ -1,0 +1,63 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+   box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background:powderblue;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background:palegreen;
+    height: 20vh;
+  }
+  .cards{
+    display: flex;
+    color: aliceblue;
+  }
+ 
+</style>
+<body>
+  <header>PROGRAMMING<br>LANGUAGES</header>
+  <div id="main">
+    <article><h1>TOPICS</h1>
+    <pre>
+        1.JavaScript
+        2.JAVA
+        3.HTML
+        4.CSS
+    </pre>
+    <h2>JavaScript</h2>
+    
+JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.
+<h3>JAVA</h3>
+Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable, therefore. It is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc.
+<h4>HTML</h4>
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+<h5>CSS</h5>
+Cascading Style Sheet(CSS) is used to set the style in web pages that contain HTML elements. It sets the background color, font-size, font-family, color, … etc property of elements on a web page. There are three types of CSS which are given below: Inline CSS. Internal or Embedded CSS
+
+</article>
+    <nav></nav>
+    <aside></aside>
+  </div>
+  <footer>THE END...</footer>
+</body>
